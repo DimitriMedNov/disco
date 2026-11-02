@@ -14,7 +14,11 @@ Extensión de GNOME que pone en la barra de arriba la portada de lo que está so
   disco de vinil y **gira mientras suena**. En pausa se detiene.
 - **Videos** (YouTube, Netflix, cualquier video en Brave o Firefox): la portada se ve como una
   miniatura quieta.
-- **Al picarle:** portada grande, canción, artista y los botones de **anterior, pausa y siguiente**.
+- **Al picarle:** portada grande, canción, artista, una **barra para adelantar o atrasar** (arrastrándola,
+  con clic, con la rueda del ratón o con las flechas del teclado) con el tiempo que va y el total, y
+  los botones de **aleatorio, anterior, pausa, siguiente y repetir** (repetir cambia entre apagado,
+  toda la lista y solo esta canción). Aleatorio y repetir se ponen verdes cuando están prendidos y
+  solo salen si el reproductor los permite (Spotify sí).
   Si suenan varias cosas (Spotify y un video), abajo sale **También suena** para cambiar cuál
   mostrar. **Abrir…** te lleva a la app.
 - Cuando no suena nada, el ícono desaparece.
@@ -41,6 +45,7 @@ Cierra sesión y vuelve a entrar. Funciona en GNOME 48 a 51. `./install.sh --qui
 | `extension.js` | El ícono de la barra (disco que gira o miniatura) y el menú con los controles |
 | `reproductores.js` | Lista de reproductores, cuál mostrar y si es música o video |
 | `portadas.js` | Baja o copia la portada a `~/.cache/disco` |
+| `controles.js` | Posición, saltar a un punto, aleatorio y repetir, directo por D-Bus. Spotify no avisa cuando avanza la canción, así que se pregunta cada segundo, solo con el menú abierto |
 
 ## Licencia
 MIT.

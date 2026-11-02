@@ -1,8 +1,8 @@
 {
   "uuid": "disco@dimitrimednov.github.io",
   "name": "Disco",
-  "description": "Muestra en la barra la portada de lo que está sonando. Si es música (Spotify, YouTube Music…) gira como disco mientras suena; si es un video, se ve como miniatura. Al picarle salen la portada grande, la canción y los botones de anterior, pausa y siguiente.",
+  "description": "Muestra en la barra la portada de lo que está sonando. Si es música (Spotify, YouTube Music…) gira como disco mientras suena; si es un video, se ve como miniatura. Al picarle salen la portada grande, la canción, una barra para adelantar o atrasar y los botones de aleatorio, anterior, pausa, siguiente y repetir.",
   "shell-version": ["48", "49", "50", "51"],
   "url": "https://github.com/DimitriMedNov/disco",
-  "version": 1
+  "version": 2
 }

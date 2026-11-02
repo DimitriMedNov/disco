@@ -23,7 +23,7 @@
 .disco-app { font-size: 0.85em; color: #c0bfbc; max-width: 288px; }
 
 /* Botones: 48 px (el de pausa 56 px), área cómoda para el clic. */
-.disco-controles { spacing: 16px; padding-top: 8px; }
+.disco-controles { spacing: 6px; padding-top: 4px; }
 .disco-boton { border-radius: 999px; color: #ffffff; }
 .disco-boton-chico { width: 48px; height: 48px; }
 .disco-boton-play { width: 56px; height: 56px; background-color: rgba(255, 255, 255, 0.14); }
@@ -31,3 +31,11 @@
 .disco-boton:active { background-color: rgba(255, 255, 255, 0.26); }
 .disco-boton:focus { box-shadow: inset 0 0 0 2px #78aeed; }
 .disco-boton:insensitive { color: rgba(255, 255, 255, 0.3); }
+
+/* Barra de la canción y tiempos. */
+.disco-progreso { spacing: 2px; padding: 6px 8px 0 8px; }
+.disco-tiempo { font-size: 0.8em; font-feature-settings: "tnum"; color: #c0bfbc; }
+
+/* Aleatorio y repetir: 44 px, atenuados si están apagados, con punto de color si están prendidos. */
+.disco-boton-modo { width: 44px; height: 44px; color: rgba(255, 255, 255, 0.6); }
+.disco-boton-modo.disco-activo { color: #1ed760; }
