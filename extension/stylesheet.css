@@ -1,21 +1,21 @@
 /* Disco, tema oscuro (también es el respaldo si GNOME no pide una variante). */
 
 /* En la barra: disco de 22 px con aro oscuro y agujero al centro; los videos, miniatura 16:10. */
-.disco-icono { width: 22px; height: 22px; border-radius: 11px; background-color: #3d3846; background-size: cover; }
+.disco-icono { width: 22px; height: 22px; border-radius: 999px; background-color: #3d3846; background-size: cover; }
 .disco-icono.disco-musica { border: 2px solid #0b0b0b; }
 .disco-icono.disco-video { width: 30px; height: 19px; border-radius: 4px; }
 .disco-icono-icono { icon-size: 14px; color: #ffffff; }
-.disco-icono-agujero { width: 5px; height: 5px; border-radius: 3px; background-color: #0b0b0b; border: 1px solid rgba(255, 255, 255, 0.4); }
+.disco-icono-agujero { width: 5px; height: 5px; border-radius: 999px; background-color: #0b0b0b; border: 1px solid rgba(255, 255, 255, 0.4); }
 
 /* Menú */
 .disco-menu-caja { min-width: 300px; }
 .disco-menu { spacing: 6px; padding: 6px 4px 2px 4px; }
-.disco-portada { width: 196px; height: 196px; border-radius: 98px; margin-bottom: 8px;
+.disco-portada { width: 196px; height: 196px; border-radius: 999px; margin-bottom: 8px;
     background-color: #3d3846; background-size: cover; }
 .disco-portada.disco-musica { border: 8px solid #0b0b0b; }
 .disco-portada.disco-video { width: 288px; height: 162px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45); }
 .disco-portada-icono { icon-size: 64px; color: #ffffff; }
-.disco-portada-agujero { width: 24px; height: 24px; border-radius: 12px; background-color: #0b0b0b; border: 3px solid rgba(255, 255, 255, 0.25); }
+.disco-portada-agujero { width: 24px; height: 24px; border-radius: 999px; background-color: #0b0b0b; border: 3px solid rgba(255, 255, 255, 0.25); }
 
 /* Las filas fijas del menú salen atenuadas por GNOME; el color explícito las devuelve al blanco. */
 .disco-titulo { font-weight: bold; font-size: 1.1em; color: #ffffff; max-width: 288px; }

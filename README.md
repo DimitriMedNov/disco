@@ -2,6 +2,14 @@
 
 Extensión de GNOME que pone en la barra de arriba la portada de lo que está sonando.
 
+![El disco en la barra](capturas/barra.png)
+
+| Música: gira como disco | Video: miniatura, con «También suena» |
+|---|---|
+| ![Menú con música](capturas/musica.png) | ![Menú con un video](capturas/video.png) |
+
+*Canción, artista y video son de ejemplo.*
+
 - **Música** (Spotify, YouTube Music, SoundCloud, Rhythmbox, Amberol…): la portada se ve como un
   disco de vinil y **gira mientras suena**. En pausa se detiene.
 - **Videos** (YouTube, Netflix, cualquier video en Brave o Firefox): la portada se ve como una
